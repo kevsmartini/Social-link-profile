@@ -147,12 +147,19 @@ picture img{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: var(--white);
+  }
+
 .linkSocialMedia:hover{
     background-color: var(--green);
-    color: var(--darkGrey);
     transition: all 1s ease;
     cursor: pointer;
+}
 
+.linkSocialMedia:hover a {
+    color: var(--darkGrey);
 }
 
 /**Media query**/
